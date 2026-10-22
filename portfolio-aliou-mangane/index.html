@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aliou Mangane — Développeur Full-Stack</title>
+  <meta name="description" content="Portfolio d'Aliou Mangane, développeur Full-Stack (Python, Django, React.js, Tailwind CSS) basé au Sénégal. Expériences, projets, compétences et contact." />
+  <meta property="og:title" content="Aliou Mangane — Développeur Full-Stack" />
+  <meta property="og:description" content="Python · Django · React.js · Tailwind CSS — Conception d'applications web centrées sur l'utilisateur." />
+  <meta property="og:image" content="profil.webp" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="avatar.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ==== NAVIGATION ==== -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#accueil" class="brand">
+      <img src="avatar.webp" alt="" width="36" height="36" />
+      <span>Aliou<strong>.</strong>Mangane</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Navigation principale">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#experience">Expérience</a>
+      <a href="#projets">Projets</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact" class="btn btn-sm btn-primary">Me contacter</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">
+      <i class="bi bi-list"></i>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ==== HERO ==== -->
+<section class="hero" id="accueil">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="pill"><span class="dot"></span>Disponible pour un stage ou un premier emploi</span>
+      <h1>Bonjour, je suis <span class="grad">Aliou Mangane</span></h1>
+      <p class="role">Développeur <span id="typed">Full-Stack</span><span class="caret" aria-hidden="true"></span></p>
+      <p class="lead">
+        Titulaire d'une Licence en Informatique de Gestion, je conçois et développe des applications web
+        de bout en bout — du traitement des données côté serveur avec <strong>Python &amp; Django</strong>
+        aux interfaces modernes avec <strong>React.js &amp; Tailwind CSS</strong>. J'allie rigueur technique,
+        leadership et communication pour livrer des solutions centrées sur l'utilisateur.
+      </p>
+      <div class="hero-cta">
+        <a href="#projets" class="btn btn-primary"><i class="bi bi-grid-1x2"></i>Voir mes projets</a>
+        <a href="CV_Aliou_Mangane_001.pdf" class="btn btn-ghost" download><i class="bi bi-download"></i>Télécharger mon CV</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/M-92-57" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/aliou-mangane-aa6b292b7" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:alinemangane8@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="photo-frame">
+        <img src="profil.webp" alt="Portrait d'Aliou Mangane" width="900" height="1085" />
+      </div>
+      <div class="float-card fc-1">
+        <i class="bi bi-lightning-charge-fill"></i>
+        <div><strong>Stage Full-Stack</strong><span>SENELEC</span></div>
+      </div>
+      <div class="float-card fc-2">
+        <i class="bi bi-code-slash"></i>
+        <div><strong>Python · Django</strong><span>React · Tailwind</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <ul class="stats">
+      <li><strong data-count="3">3</strong><span>Expériences professionnelles</span></li>
+      <li><strong data-count="3">3</strong><span>Projets réalisés</span></li>
+      <li><strong data-count="6">6</strong><span>Certifications</span></li>
+      <li><strong data-count="1">1</strong><span>Club étudiant fondé</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==== À PROPOS ==== -->
+<section class="section" id="apropos">
+  <div class="container about-grid">
+    <div class="about-photo">
+      <img src="aline.jpg" alt="Aliou Mangane" loading="lazy" />
+    </div>
+    <div>
+      <p class="eyebrow">À propos</p>
+      <h2 class="title">Un développeur qui sait aussi <span class="grad">fédérer et communiquer</span></h2>
+      <p>
+        Développeur Full-Stack formé à l'<strong>Université Catholique de l'Afrique de l'Ouest (UCAO)</strong>,
+        j'ai acquis une expérience concrète en entreprise et dans l'administration : à la <strong>SENELEC</strong>,
+        j'ai conçu une application qui transforme les extractions de ventes en écritures comptables prêtes à
+        être chargées dans Oracle ; au <strong>Ministère de l'Éducation Nationale</strong>, j'ai contribué
+        à une plateforme destinée aux enseignants.
+      </p>
+      <p>
+        En parallèle, j'ai fondé et présidé le <strong>Club de Leadership Étudiant de l'UCAO Saint-Michel</strong>
+        et présenté l'émission <em>L'Agora des Jeunes</em> sur Challenge New Media TV. Ces expériences m'ont
+        appris à écouter, à structurer un message et à piloter un projet en équipe — des qualités que
+        j'apporte dans chaque ligne de code.
+      </p>
+      <ul class="facts">
+        <li><i class="bi bi-mortarboard"></i><div><span>Diplôme</span><strong>Licence Informatique de Gestion</strong></div></li>
+        <li><i class="bi bi-geo-alt"></i><div><span>Localisation</span><strong>Sénégal</strong></div></li>
+        <li><i class="bi bi-translate"></i><div><span>Langues</span><strong>Français courant · Anglais intermédiaire</strong></div></li>
+        <li><i class="bi bi-briefcase"></i><div><span>Recherche</span><strong>Stage / CDD / CDI — Développement web</strong></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ==== COMPÉTENCES ==== -->
+<section class="section alt" id="competences">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Compétences</p>
+      <h2 class="title">Ma boîte à outils</h2>
+      <p class="sub">Des technologies maîtrisées en projet réel, du back-end à l'interface.</p>
+    </div>
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-icon"><i class="bi bi-window"></i></div>
+        <h3>Développement Front-end</h3>
+        <p>Interfaces responsives, accessibles et fidèles aux maquettes.</p>
+        <ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React.js</li></ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="bi bi-hdd-stack"></i></div>
+        <h3>Back-end</h3>
+        <p>Logique métier, traitement et transformation de données, contrôles de cohérence.</p>
+        <ul class="tags"><li>Python</li><li>Django</li><li>Oracle (import)</li></ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="bi bi-layers"></i></div>
+        <h3>Frameworks &amp; librairies</h3>
+        <p>Mise en page rapide et cohérente, design system utilitaire.</p>
+        <ul class="tags"><li>Tailwind CSS</li><li>Bootstrap</li></ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="bi bi-cpu"></i></div>
+        <h3>Données &amp; IA</h3>
+        <p>Notions d'analyse de données et de machine learning appliquées au numérique.</p>
+        <ul class="tags"><li>Analyse de données</li><li>Machine learning</li><li>IA</li></ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="bi bi-vector-pen"></i></div>
+        <h3>Conception</h3>
+        <p>Maquettes, prototypes et supports visuels avant le développement.</p>
+        <ul class="tags"><li>Figma</li><li>Canva</li></ul>
+      </article>
+      <article class="skill-card">
+        <div class="skill-icon"><i class="bi bi-tools"></i></div>
+        <h3>Outils</h3>
+        <p>Versionnement, collaboration et bureautique professionnelle.</p>
+        <ul class="tags"><li>Git &amp; GitHub</li><li>VS Code</li><li>Word</li><li>Excel</li><li>PowerPoint</li></ul>
+      </article>
+    </div>
+
+    <div class="soft">
+      <h3><i class="bi bi-stars"></i> Qualités humaines</h3>
+      <ul class="soft-list">
+        <li><i class="bi bi-megaphone"></i>Communication</li>
+        <li><i class="bi bi-flag"></i>Leadership</li>
+        <li><i class="bi bi-arrow-repeat"></i>Adaptabilité</li>
+        <li><i class="bi bi-people"></i>Travail en équipe</li>
+        <li><i class="bi bi-mic"></i>Prise de parole en public</li>
+        <li><i class="bi bi-check2-circle"></i>Rigueur</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ==== EXPÉRIENCE ==== -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Expérience</p>
+      <h2 class="title">Parcours professionnel</h2>
+      <p class="sub">Des missions concrètes, en entreprise, dans l'administration et dans les médias.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl-item">
+        <span class="tl-dot"><i class="bi bi-lightning-charge-fill"></i></span>
+        <article class="tl-card">
+          <header>
+            <div>
+              <h3>Stagiaire — Développeur Full-Stack</h3>
+              <p class="org">SENELEC · Société Nationale d'Électricité du Sénégal</p>
+            </div>
+            <span class="date">2026</span>
+          </header>
+          <p>
+            Conception et développement d'une application web qui transforme les extractions de ventes
+            (Woyofal et compteurs classiques) en écritures comptables au format attendu pour le chargement dans Oracle.
+          </p>
+          <ul class="bullets">
+            <li>Développement du <strong>front-end et du back-end</strong> avec Python et Django.</li>
+            <li>Mise en place des <strong>traitements de transformation</strong> des données de ventes.</li>
+            <li>Implémentation de <strong>contrôles de cohérence</strong> et préparation des fichiers pour le déversement comptable.</li>
+            <li>Réduction des manipulations manuelles et fiabilisation du processus de saisie comptable.</li>
+          </ul>
+          <ul class="tags"><li>Python</li><li>Django</li><li>Oracle</li><li>Traitement de données</li></ul>
+        </article>
+      </li>
+
+      <li class="tl-item">
+        <span class="tl-dot"><i class="bi bi-building"></i></span>
+        <article class="tl-card">
+          <header>
+            <div>
+              <h3>Stagiaire — Développeur Front-end</h3>
+              <p class="org">Ministère de l'Éducation Nationale</p>
+            </div>
+            <span class="date">Fév. — Avr. 2026</span>
+          </header>
+          <p>Contribution au développement d'une plateforme web destinée aux enseignants.</p>
+          <ul class="bullets">
+            <li>Intégration d'interfaces <strong>responsives</strong> à partir de maquettes.</li>
+            <li>Développement de composants réutilisables et tests d'utilisabilité.</li>
+            <li>Collaboration quotidienne au sein d'une équipe projet (revues, suivi des tâches).</li>
+          </ul>
+          <ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React.js</li></ul>
+        </article>
+      </li>
+
+      <li class="tl-item">
+        <span class="tl-dot"><i class="bi bi-mic-fill"></i></span>
+        <article class="tl-card tl-media">
+          <div class="tl-body">
+            <header>
+              <div>
+                <h3>Présentateur — L'Agora des Jeunes</h3>
+                <p class="org">Challenge New Media TV (CNM)</p>
+              </div>
+              <span class="date">Mars 2025 — Avr. 2026</span>
+            </header>
+            <p>Animation d'une émission consacrée à la jeunesse, au numérique et à l'entrepreneuriat.</p>
+            <ul class="bullets">
+              <li>Animation d'émissions sur le <strong>numérique, le leadership et l'entrepreneuriat</strong>.</li>
+              <li>Préparation des fiches invités et conduite des émissions en direct.</li>
+              <li>Coordination et <strong>modération de débats</strong>.</li>
+            </ul>
+            <ul class="tags"><li>Prise de parole</li><li>Modération</li><li>Communication</li></ul>
+          </div>
+          <figure class="tl-figure">
+            <img src="emission-tv.jpg" alt="Aliou Mangane en plateau sur CNM" loading="lazy" />
+            <figcaption><i class="bi bi-broadcast"></i> En direct sur CNM</figcaption>
+          </figure>
+        </article>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ==== PROJETS ==== -->
+<section class="section alt" id="projets">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Projets</p>
+      <h2 class="title">Réalisations sélectionnées</h2>
+      <p class="sub">Contexte, rôle, fonctionnalités et stack de chaque projet.</p>
+    </div>
+
+    <div class="projects">
+      <article class="project featured">
+        <div class="project-cover cover-1">
+          <i class="bi bi-file-earmark-spreadsheet"></i>
+          <span class="badge-feat">Projet phare</span>
+        </div>
+        <div class="project-body">
+          <p class="project-type">Application métier · SENELEC</p>
+          <h3>Application de déversement comptable</h3>
+          <p>
+            Outil interne qui automatise la transformation des ventes <strong>Woyofal</strong> et des
+            <strong>compteurs classiques</strong> en écritures comptables conformes au format d'import Oracle.
+          </p>
+          <ul class="bullets">
+            <li>Import des extractions de ventes et normalisation des données.</li>
+            <li>Règles de transformation et de contrôle (équilibre, formats, champs obligatoires).</li>
+            <li>Génération du fichier prêt au chargement dans Oracle.</li>
+          </ul>
+          <p class="role-line"><i class="bi bi-person-badge"></i>Rôle : conception &amp; développement full-stack</p>
+          <ul class="tags"><li>Python</li><li>Django</li><li>Oracle</li></ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-cover cover-2"><i class="bi bi-mic"></i></div>
+        <div class="project-body">
+          <p class="project-type">Site vitrine</p>
+          <h3>École de formation en art oratoire</h3>
+          <p>Plateforme de présentation des services d'une école de prise de parole : offres, formations et prise de contact.</p>
+          <ul class="bullets">
+            <li>Composants React réutilisables.</li>
+            <li>Design responsive avec Tailwind CSS.</li>
+          </ul>
+          <ul class="tags"><li>React.js</li><li>Tailwind CSS</li></ul>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-cover cover-3"><i class="bi bi-person-workspace"></i></div>
+        <div class="project-body">
+          <p class="project-type">Site personnel</p>
+          <h3>Portfolio personnel</h3>
+          <p>Le site que vous consultez : présentation de mon parcours, de mes compétences et de mes projets.</p>
+          <ul class="bullets">
+            <li>Page unique, responsive, animations au défilement.</li>
+            <li>Hébergé sur GitHub Pages.</li>
+          </ul>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <a class="link" href="https://github.com/M-92-57/myportfolio.github.io" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Voir le code</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="more"><a href="https://github.com/M-92-57" target="_blank" rel="noopener noreferrer" class="btn btn-ghost"><i class="bi bi-github"></i>Plus de projets sur GitHub</a></p>
+  </div>
+</section>
+
+<!-- ==== FORMATION & CERTIFICATIONS ==== -->
+<section class="section" id="formation">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Formation</p>
+      <h2 class="title">Diplômes &amp; certifications</h2>
+    </div>
+
+    <div class="edu-grid">
+      <article class="edu-card">
+        <img src="UCAO.png" alt="Logo UCAO" loading="lazy" />
+        <div>
+          <h3>Licence en Informatique de Gestion</h3>
+          <p>Université Catholique de l'Afrique de l'Ouest (UCAO)</p>
+          <span class="date">2025 — 2026</span>
+        </div>
+      </article>
+      <article class="edu-card">
+        <img src="LANS.webp" alt="Logo du lycée Ahmadou Ndack Seck" loading="lazy" />
+        <div>
+          <h3>Baccalauréat</h3>
+          <p>Lycée Ahmadou Ndack Seck de Thiès</p>
+          <span class="date">2022 — 2023</span>
+        </div>
+      </article>
+    </div>
+
+    <h3 class="sub-title">Certifications</h3>
+    <div class="cert-grid">
+      <article class="cert"><img src="DCLIC.webp" alt="" loading="lazy" /><div><h4>Développement Web</h4><p>ONFP · Programme D-CLIC (OIF)</p><span>2025</span></div></article>
+      <article class="cert"><img src="AUF.webp" alt="" loading="lazy" /><div><h4>Développement personnel &amp; Leadership</h4><p>Agence Universitaire de la Francophonie</p><span>2024</span></div></article>
+      <article class="cert"><img src="FORCE N.webp" alt="" loading="lazy" /><div><h4>IA et Numérique</h4><p>Force-N</p><span>2025</span></div></article>
+      <article class="cert"><img src="YALY.webp" alt="" loading="lazy" /><div><h4>Leadership &amp; financement</h4><p>YALI Dakar — Réseau des Alumni</p><span>2024</span></div></article>
+      <article class="cert"><img src="académie de la paix.png" alt="" loading="lazy" /><div><h4>Jeunesse, Paix et Sécurité</h4><p>Académie de la Paix — FNJPS</p><span>2025</span></div></article>
+      <article class="cert"><img src="CLES 1.jpg" alt="" loading="lazy" /><div><h4>Développement personnel</h4><p>Club de Leadership et de l'Entrepreneuriat du Sénégal</p><span>2024</span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ==== LEADERSHIP ==== -->
+<section class="section alt" id="leadership">
+  <div class="container lead-grid">
+    <div>
+      <p class="eyebrow">Leadership &amp; engagement</p>
+      <h2 class="title">Président fondateur du Club de Leadership Étudiant</h2>
+      <p class="org-line">UCAO Saint-Michel · depuis 2025</p>
+      <p>
+        J'ai créé ce club pour offrir aux étudiants un espace où développer leur confiance, leur prise de
+        parole et leur esprit d'initiative.
+      </p>
+      <ul class="bullets">
+        <li>Création et direction du club : vision, équipe, organisation.</li>
+        <li>Organisation d'<strong>ateliers, conférences et formations</strong>.</li>
+        <li>Animation de réunions et prise de parole en public.</li>
+      </ul>
+    </div>
+    <div class="lead-photos">
+      <img src="Prési.jpg" alt="Aliou Mangane, président du club" loading="lazy" />
+      <img src="MANGANE.jpg" alt="Aliou Mangane en studio" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ==== CONTACT ==== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-card">
+      <div class="contact-info">
+        <p class="eyebrow">Contact</p>
+        <h2 class="title">Travaillons ensemble</h2>
+        <p>Une offre de stage, un projet web ou une collaboration ? Écrivez-moi, je réponds rapidement.</p>
+        <ul class="contact-list">
+          <li><i class="bi bi-envelope"></i><a href="mailto:alinemangane8@gmail.com">alinemangane8@gmail.com</a></li>
+          <li><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/aliou-mangane-aa6b292b7" target="_blank" rel="noopener noreferrer">LinkedIn — Aliou Mangane</a></li>
+          <li><i class="bi bi-github"></i><a href="https://github.com/M-92-57" target="_blank" rel="noopener noreferrer">github.com/M-92-57</a></li>
+        </ul>
+        <a href="CV_Aliou_Mangane_001.pdf" class="btn btn-ghost" download><i class="bi bi-file-earmark-arrow-down"></i>Télécharger mon CV</a>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="row-2">
+          <label>Nom complet<input type="text" name="nom" required placeholder="Votre nom" /></label>
+          <label>Email<input type="email" name="email" required placeholder="vous@exemple.com" /></label>
+        </div>
+        <label>Sujet<input type="text" name="sujet" required placeholder="Offre de stage, projet…" /></label>
+        <label>Message<textarea name="message" rows="5" required placeholder="Votre message"></textarea></label>
+        <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i>Envoyer le message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> Aliou Mangane — Développeur Full-Stack</p>
+    <div class="socials small">
+      <a href="https://github.com/M-92-57" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/aliou-mangane-aa6b292b7" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:alinemangane8@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </div>
+</footer>
+
+<a href="#accueil" class="to-top" id="toTop" aria-label="Retour en haut"><i class="bi bi-arrow-up"></i></a>
+
+<script src="script.js"></script>
+</body>
+</html>
